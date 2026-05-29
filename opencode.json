@@ -1,0 +1,51 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "blablador": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Helmholtz Blablador",
+      "options": {
+        "baseURL": "https://api.blablador.fz-juelich.de/v1/"
+      },
+      "models": {
+        "alias-code": {
+          "name": "Coding Model",
+          "limit": {
+            "context": 98304,
+            "output": 65536
+          }
+        }
+      }
+    },
+    "hzdr_chat": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "HZDR Chat",
+      "options": {
+        "baseURL": "https://chat.fz-rossendorf.de/api/v1/"
+      },
+      "models": {
+        "qwen3.6-27b-fp8": {
+          "name": "Qwen3.6-27B",
+          "limit": {
+            "context": 262144,
+            "output": 65536
+          }
+        },
+        "qwen3.6-27b-fp8-no-reasoning": {
+          "name": "Qwen3.6-27B No-Reasoning",
+          "limit": {
+            "context": 262144,
+            "output": 65536
+          }
+        },
+        "mistral-medium-3.5-128b": {
+          "name": "Mistral Medium 3.5 128B",
+          "limit": {
+            "context": 262144,
+            "output": 65536
+          }
+        }
+      }
+    }
+  }
+}
