@@ -84,33 +84,14 @@ tabsize=2
 
 % 1b — HOOK
 \begin{frame}{Navigate Conference Research with Agentic AI}
-  \begin{alertblock}{}
+  \begin{alertblock}{Imagine this scenario}
     You open the conference programme.\\
-    400 abstracts. 3 parallel tracks. 2 days.\\
+    6000 abstracts. 10+ parallel tracks. You have a 6h flight to prepare.\\
     Where do \textit{you} start?
   \end{alertblock}
   \vspace{0.5em}
   \textbf{Traditional approach:} skim titles $\rightarrow$ miss half the relevant work\\[0.3em]
-  \textbf{This talk:} let an AI agent do the heavy lifting --- \textit{with you in control}
-\end{frame}
-
-% 2 — FRAMING
-\begin{frame}[fragile]{Agentic AI Definition}
-  A system is \textbf{agentic} when it can:
-  \begin{itemize}
-    \item[1.] \textbf{Perceive} a goal expressed in natural language
-    \item[2.] \textbf{Plan} which tools to invoke
-    \item[3.] \textbf{Execute} those tools autonomously
-    \item[4.] \textbf{Reflect} on results and loop back
-  \end{itemize}
-  \vspace{0.3em}
-  \begin{verbatim}
-User goal -> LLM planner -> tool calls -> results -> LLM answer
-                 ^__________feedback loop__________^
-  \end{verbatim}
-  \begin{block}{}
-    This is exactly what happens inside Abstracts Explorer every time you ask a question --- with the user in the loop.
-  \end{block}
+  \textbf{Abstracts Explorer:} let an AI agent do the heavy lifting --- \textit{with you in control}
 \end{frame}
 
 % 4 — DEMO: SEARCH
@@ -154,7 +135,7 @@ User goal -> LLM planner -> tool calls -> results -> LLM answer
     \begin{column}{0.55\textwidth}
       \includegraphics[width=\textwidth]{images/web-ui-interesting.png}
     \end{column}
-    \begin{column}{0.42\textwidth}
+    \begin{column}{0.45\textwidth}
       \textbf{Interesting Papers} (Tab~3)\\[0.5em]
       \begin{itemize}
         \item Rate abstracts 1--5 stars while browsing
@@ -190,29 +171,41 @@ User goal -> LLM planner -> tool calls -> results -> LLM answer
   \end{columns}
 \end{frame}
 
+\begin{frame}[fragile]{Agentic AI Definition}
+  A system is \textbf{agentic} when it can:
+  \begin{itemize}
+    \item[1.] \textbf{Perceive} a goal expressed in natural language
+    \item[2.] \textbf{Plan} which tools to invoke
+    \item[3.] \textbf{Execute} those tools autonomously
+    \item[4.] \textbf{Reflect} on results and loop back
+  \end{itemize}
+  \vspace{0.3em}
+  \begin{verbatim}
+User goal -> LLM planner -> tool calls -> results -> LLM answer
+                 ^__________feedback loop__________^
+  \end{verbatim}
+\end{frame}
+
 % DATA STACK
 \begin{frame}{Abstracts Explorer Data Stack}
   \small
   \begin{tabularx}{\textwidth}{lX}
     \toprule
-    \textbf{Layer}      & \textbf{What it does}                                    \\
+    \textbf{Layer}      & \textbf{What it does}                                     \\
     \midrule
-    \textbf{Data}       & Downloads \& stores abstracts from 10+ conferences       \\
-    \textbf{Embeddings} & Converts abstracts to vectors via an LLM embedding model \\
-    \textbf{Retrieval}  & Keyword (SQL) + semantic (cosine similarity) search      \\
-    \textbf{Reasoning}  & RAG chat: the LLM reads relevant abstracts, then answers \\
-    \textbf{Agency}     & MCP tools: the LLM decides which analysis to run         \\
-    \textbf{Interface}  & Flask web UI --- four tabs, no coding required           \\
+    \textbf{Data}       & Downloads \& stores abstracts from 10+ conferences        \\
+    \textbf{Embeddings} & Converts abstracts to vectors via an LLM embedding model  \\
+    \textbf{Retrieval}  & Semantic (cosine similarity) search                       \\
+    \textbf{Agency}     & MCP tools: the LLM decides which analysis to run          \\
+    \textbf{Reasoning}  & RAG chat: the LLM answers questions based on tool results \\
+    \textbf{Interface}  & Flask/Waitress web UI                                     \\
     \bottomrule
   \end{tabularx}
   \vspace{0.5em}
-  \begin{block}{}
-    Open source $\cdot$ Apache-2.0 $\cdot$ runs locally or on a server
-  \end{block}
 \end{frame}
 
 \begin{frame}{MCP Gives the LLM a Toolbox to Choose From}
-  \begin{block}{}
+  \begin{block}{MCP: Model Context Protocol}
     MCP is an open standard for exposing \textbf{callable tools} to LLMs.
     The LLM reads the tool descriptions and decides \textit{when and how} to call them.
   \end{block}
@@ -255,7 +248,7 @@ User goal -> LLM planner -> tool calls -> results -> LLM answer
     \textbf{Tool use}             & LLM autonomously selects among 6 specialised tools                                               \\
     \textbf{Multi-step reasoning} & Query rewriting $\rightarrow$ retrieval $\rightarrow$ optional tool loop $\rightarrow$ synthesis \\
     \textbf{Grounded}             & Every answer cites the source abstracts                                                          \\
-    \textbf{Persistent state}     & Conversation history, ratings, cluster cache across sessions                                     \\
+    \textbf{Persistent state}     & Conversation history, tool results                                                               \\
     \textbf{Human in the loop}    & Follow-up questions and feedback                                                                 \\
     \bottomrule
   \end{tabularx}
@@ -266,7 +259,7 @@ User goal -> LLM planner -> tool calls -> results -> LLM answer
   \begin{itemize}
     \item 8 conferences, multi-year data (NeurIPS $\cdot$ ICLR $\cdot$ ICML $\cdot$ CHI $\cdot$ HAICON $\cdot$ \ldots)
           \begin{itemize}
-            \item Plugin system makes it easy to add more
+            \item Plugin system makes it easy to add more - use the issue template on Github to request your favourite conference!
           \end{itemize}
     \item 6 MCP tools, automatic RAG integration
     \item Conference data registry: share conference data across installations
@@ -282,6 +275,11 @@ User goal -> LLM planner -> tool calls -> results -> LLM answer
 % 11 — DEPLOYMENT
 \begin{frame}[fragile]{Easily Deployed with Podman Quadlets}
   Quadlets are \texttt{systemd} unit files that describe containers --- Podman generates real \texttt{.service} units from them automatically.\\[0.5em]
+
+  \begin{block}{Single command to install}
+    curl -fsSL https://raw.githubusercontent.com/thawn/abstracts-explorer/main/scripts/install-quadlets.sh | bash
+  \end{block}
+
   \textbf{Advantages:}
   \begin{itemize}
     \item Secure: almost everything runs in user space --- root permissions needed only for ports 80 and 443
@@ -289,21 +287,21 @@ User goal -> LLM planner -> tool calls -> results -> LLM answer
   \end{itemize}
   \vspace{0.3em}
   \textbf{Prerequisites:} Podman installed, \texttt{podman generate systemd} in your PATH, curl installed.\\[0.3em]
-  Single command to install the Quadlets (will ask for your password to set up the ports):
-  \begin{lstlisting}[style=code,language=bash]
-curl -fsSL https://raw.githubusercontent.com/thawn/abstracts-explorer/main/scripts/install-quadlets.sh | bash
-  \end{lstlisting}
+\end{frame}
+
+\begin{frame}{Mini Hackathon}
+  \Large
+  \begin{tabularx}{\textwidth}{lX}
+    \parbox[c]{5em}{\centering\includegraphics[width=5em]{images/abstracts.hzdr.de.png}} & \parbox[c]{\linewidth}{\textbf{Try it out!} $\rightarrow$ \url{https://abstracts.hzdr.de/}}                                                                                                                                                                                            \\
+    \parbox[c]{5em}{\centering\includegraphics[width=5em]{images/github.png}}            & \parbox[c]{\linewidth}{\textbf{Contribute on Github} $\rightarrow$ \url{https://github.com/thawn/abstracts-explorer}}                                                                                                                                                                  \\
+    \parbox[c]{5em}{\centering\includegraphics[width=5em]{images/first-issue.png}}       & \parbox[c]{\linewidth}{\raggedright\textbf{Check out good first issues} $\rightarrow$ {\large\href{https://github.com/thawn/abstracts-explorer/issues?q=is\%3Aissue\%20state\%3Aopen\%20label\%3A\%22good\%20first\%20issue\%22}{https://github.com/thawn/abstracts-explorer/issues}}}
+  \end{tabularx}
 \end{frame}
 
 % 13 — TAKE-AWAY
 \begin{frame}{Summary}
 
-  \begin{alertblock}{}
-    \textbf{Agentic AI is most useful when it operates on \textit{your} domain data,\\
-      in \textit{your} infrastructure, with \textit{you} steering the goals.}
-  \end{alertblock}
-  \vspace{0.3em}
-  Abstracts Explorer is a small but complete example:
+  Abstracts Explorer is a small but complete example of Agentic AI for science:
   \begin{itemize}
     \item Domain-specific knowledge base (conference abstracts)
     \item Local-first, privacy-respecting (runs on your laptop or institute server)
