@@ -1,4 +1,1050 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1466.1249593098958 553.6915435791016" width="2932.2499186197915" height="1107.3830871582031"><!-- svg-source:excalidraw --><metadata></metadata><defs><style class="style-fonts">
-      @font-face { font-family: Excalifont; src: url(data:font/woff2;base64,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); }</style></defs><g stroke-linecap="round" transform="translate(1073.3333333333333 10) rotate(0 191.39581298828125 262.5)"><path d="M0 0 C97.89 -0.87, 195.99 -1.01, 382.79 0 M0 0 C115.52 1.82, 230.93 1.04, 382.79 0 M382.79 0 C383.27 155.02, 383.15 310.68, 382.79 525 M382.79 0 C381.51 127.44, 381.67 254.77, 382.79 525 M382.79 525 C244.94 524.87, 108.86 524.34, 0 525 M382.79 525 C295.84 523.07, 208.54 523.85, 0 525 M0 525 C-2.38 359.55, -1.53 194.36, 0 0 M0 525 C-0.61 379.21, -0.51 233.59, 0 0" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1236.245812733968 15) rotate(0 28.483333587646484 12.5)"><text x="28.483333587646484" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Agent</text></g><g stroke-linecap="round" transform="translate(1241.2583287556965 35) rotate(0 49.866668701171875 30)"><path d="M0 0 C36.68 -1.58, 72.11 0.58, 99.73 0 M0 0 C37.03 1.05, 73.17 0, 99.73 0 M99.73 0 C98.14 16.29, 100.64 33.57, 99.73 60 M99.73 0 C100.24 18.72, 99.77 35.95, 99.73 60 M99.73 60 C71.58 58.33, 44.93 59.75, 0 60 M99.73 60 C75.58 61.74, 50.68 60.39, 0 60 M0 60 C-0.88 43.44, 1.29 25.89, 0 0 M0 60 C-0.85 44.89, 0.69 30.16, 0 0" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1268.9083302815754 52.5) rotate(0 22.21666717529297 12.5)"><text x="22.21666717529297" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">User</text></g><g stroke-linecap="round" transform="translate(1123.1875012715657 145) rotate(0 100.29166412353516 30)"><path d="M0 0 C51.21 0.7, 98.77 -1.11, 200.58 0 M0 0 C69.21 0.41, 139.15 0.56, 200.58 0 M200.58 0 C201.1 14.7, 200.63 31.05, 200.58 60 M200.58 0 C200.33 20.44, 199.88 40, 200.58 60 M200.58 60 C148.48 60.34, 99.74 60.73, 0 60 M200.58 60 C120.25 60, 40.21 59.15, 0 60 M0 60 C-1.67 40.88, -2.01 18.98, 0 0 M0 60 C-0.17 44.6, 0.2 30.62, 0 0" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1143.2624982198079 162.5) rotate(0 80.21666717529297 12.5)"><text x="80.21666717529297" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Web UI\n(Flask)</text></g><g stroke-linecap="round" transform="translate(1161.1249974568684 280) rotate(0 130 45)"><path d="M0 0 C103.7 -1.47, 205 -0.09, 260 0 M0 0 C58.24 1.73, 116.88 1.23, 260 0 M260 0 C260.62 26.11, 258.43 51.13, 260 90 M260 0 C258.86 27.07, 259.57 54.97, 260 90 M260 90 C185.38 89.58, 107 90.09, 0 90 M260 90 C163.7 90.21, 67.01 89.06, 0 90 M0 90 C-0.48 61.41, -0.87 29.9, 0 0 M0 90 C0.03 71.28, -0.02 52.66, 0 0" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1196.1750005086262 300) rotate(0 94.94999694824219 25)"><text x="94.94999694824219" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">RAG Chat\n(openai</text><text x="94.94999694824219" y="42.62" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">client)</text></g><g stroke-linecap="round" transform="translate(1217.1666615804036 450) rotate(0 73.95833587646484 30)"><path d="M0 0 C28.42 1.32, 58.68 -0.85, 147.92 0 M0 0 C54.29 -0.26, 109.41 0.31, 147.92 0 M147.92 0 C147.67 17.13, 146.05 36.42, 147.92 60 M147.92 0 C148 14.55, 148.22 28.61, 147.92 60 M147.92 60 C111.75 59.92, 72.27 60.43, 0 60 M147.92 60 C91.2 58.4, 33.1 58.57, 0 60 M0 60 C-1.28 37.98, -0.2 14.37, 0 0 M0 60 C0.46 39.15, -0.99 17.88, 0 0" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1238.8416646321614 467.5) rotate(0 52.28333282470703 12.5)"><text x="52.28333282470703" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">MCP Tools</text></g><g stroke-linecap="round"><g transform="translate(1254.2273333333333 95.5) rotate(0 -16.342519846920595 22.768575077445746)"><path d="M-0.28 0.37 C-5.5 4.51, -25.94 17.11, -31.03 24.53 C-36.12 31.95, -30.92 41.45, -30.82 44.9 M0.58 0.09 C-4.49 4.35, -24.65 17.68, -29.95 25.24 C-35.24 32.8, -31.17 42.02, -31.2 45.45" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1254.2273333333333 95.5) rotate(0 -16.342519846920595 22.768575077445746)"><path d="M-36.19 36.49 C-34.08 39.44, -32.62 42.84, -31.2 45.45 M-36.19 36.49 C-34.73 38.83, -33.43 41.55, -31.2 45.45" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1254.2273333333333 95.5) rotate(0 -16.342519846920595 22.768575077445746)"><path d="M-29.27 35.38 C-29.64 38.71, -30.65 42.51, -31.2 45.45 M-29.27 35.38 C-29.75 38.04, -30.41 41.08, -31.2 45.45" stroke="#1971c2" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(1223.9793333333332 205.5) rotate(0 9.191865713605239 34.99864750655183)"><path d="M-0.62 0.06 C-0.63 3.98, -0.79 15.96, -0.65 24.28 C-0.51 32.6, -3.33 42.31, 0.2 49.97 C3.72 57.64, 17.21 66.74, 20.51 70.28 M1.25 -0.95 C1.12 3.08, -1.43 17.57, -1.67 25.7 C-1.92 33.84, -3.96 40.34, -0.21 47.88 C3.55 55.42, 17.13 66.98, 20.83 70.94" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1223.9793333333332 205.5) rotate(0 9.191865713605239 34.99864750655183)"><path d="M7.12 64.79 C10.65 66.21, 13.72 68.8, 20.83 70.94 M7.12 64.79 C11.53 67.04, 15.85 68.52, 20.83 70.94" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1223.9793333333332 205.5) rotate(0 9.191865713605239 34.99864750655183)"><path d="M14.28 57.42 C16.08 60.64, 17.36 65.06, 20.83 70.94 M14.28 57.42 C16.27 62.12, 18.16 66.1, 20.83 70.94" stroke="#1971c2" stroke-width="2" fill="none"></path></g></g><mask></mask><g mask="url(#mask-GaXMLnwHFG9sIFaGfNyEG)" stroke-linecap="round"><g transform="translate(1291.147147838338 376) rotate(0 -0.5044124004344894 33.327495062099786)"><path d="M-0.15 -0.22 C0.07 5.52, 0.63 23.24, 0.67 34.47 C0.72 45.7, 0.3 61.55, 0.12 67.16 M-1.69 -1.38 C-1.51 3.99, -0.1 21.03, 0.09 32.6 C0.28 44.17, -0.5 61.92, -0.57 68.03" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1291.147147838338 376) rotate(0 -0.5044124004344894 33.327495062099786)"><path d="M-5.97 51.91 C-4.93 56.9, -2.62 60.1, -0.57 68.03 M-5.97 51.91 C-5.43 55, -3.93 58.72, -0.57 68.03" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1291.147147838338 376) rotate(0 -0.5044124004344894 33.327495062099786)"><path d="M5.65 52.21 C3.81 57.11, 3.24 60.24, -0.57 68.03 M5.65 52.21 C3.52 55.24, 2.36 58.9, -0.57 68.03" stroke="#1971c2" stroke-width="2" fill="none"></path></g></g><mask id="mask-GaXMLnwHFG9sIFaGfNyEG"><rect x="0" y="0" fill="#fff" width="1391.1689623433429" height="544"></rect><rect x="1252.0420012715656" y="397.5" fill="#000" width="78.16666412353516" height="25" opacity="1"></rect></mask><g transform="translate(1252.0420012715656 397.5) rotate(0 38.60073416633793 11.827495062099786)"><text x="39.08333206176758" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">tool call</text></g><g stroke-linecap="round"><g transform="translate(1337.2323333333331 279.5) rotate(0 12.856915678920132 -89.96640513406504)"><path d="M0.13 -0.84 C4.35 -4.99, 21.78 -16.14, 26.01 -24.4 C30.23 -32.65, 25.5 -36.88, 25.47 -50.37 C25.45 -63.86, 25.65 -87.04, 25.85 -105.34 C26.05 -123.64, 31.5 -147.62, 26.7 -160.18 C21.9 -172.74, 1.94 -177.32, -2.96 -180.69 M-1.26 1.33 C2.71 -2.64, 20 -14.33, 24.85 -22.81 C29.71 -31.28, 27.73 -35.86, 27.89 -49.51 C28.04 -63.15, 26.23 -86.24, 25.81 -104.68 C25.39 -123.11, 29.95 -147.38, 25.39 -160.14 C20.82 -172.91, 2.97 -177.77, -1.59 -181.26" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1337.2323333333331 279.5) rotate(0 12.856915678920132 -89.96640513406504)"><path d="M16.57 -178.75 C8.77 -180.22, 3.72 -181.93, -1.59 -181.26 M16.57 -178.75 C12.68 -179.96, 8.25 -179.34, -1.59 -181.26" stroke="#1971c2" stroke-width="2" fill="none"></path></g><g transform="translate(1337.2323333333331 279.5) rotate(0 12.856915678920132 -89.96640513406504)"><path d="M10.7 -167.66 C4.96 -173.11, 2.01 -178.79, -1.59 -181.26 M10.7 -167.66 C8.2 -171.36, 5.11 -173.26, -1.59 -181.26" stroke="#1971c2" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round" transform="translate(400.77633352731254 110.75980122884107) rotate(0 312.1090805962226 216.46587117513025)"><path d="M0 0 C194.24 0.19, 387.77 0.44, 624.22 0 M0 0 C143.57 1.7, 287.26 1.81, 624.22 0 M624.22 0 C624.16 110.1, 623.2 220.41, 624.22 432.93 M624.22 0 C624.7 166.73, 624.19 333.92, 624.22 432.93 M624.22 432.93 C378.91 434.48, 134.74 434.44, 0 432.93 M624.22 432.93 C410.16 435.28, 195.19 435.01, 0 432.93 M0 432.93 C-0.67 287.85, 0.7 143.84, 0 0 M0 432.93 C-0.39 340.78, -0.15 248.17, 0 0" stroke="#6741d9" stroke-width="2" fill="none"></path></g><g transform="translate(633.1354141235352 115.75980122884107) rotate(0 79.75 13.000482374100727)"><text x="79.75" y="18.325479954532355" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20.80077179856113px" fill="#6741d9" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Knowledge Base</text></g><g stroke-linecap="round" transform="translate(545.9397244774398 136.7607653066259) rotate(0 98.94233573919183 46.938640735386514)"><path d="M0 0 C42.81 1.41, 87.29 0.76, 197.88 0 M0 0 C73.6 -2.33, 147.98 -1.26, 197.88 0 M197.88 0 C199.39 28.97, 196.52 58.19, 197.88 93.88 M197.88 0 C198.22 20.36, 197.68 41.39, 197.88 93.88 M197.88 93.88 C124.61 96.57, 51.55 96.97, 0 93.88 M197.88 93.88 C143.6 92.14, 88.35 91.55, 0 93.88 M0 93.88 C-2.49 69.51, -0.68 44.22, 0 0 M0 93.88 C0.61 60.03, -0.87 26.96, 0 0" stroke="#6741d9" stroke-width="2" fill="none"></path></g><g transform="translate(562.9320632683894 173.29902014273182) rotate(0 81.94999694824219 10.400385899280593)"><text x="81.94999694824219" y="14.660383963625883" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="16.640617438848903px" fill="#6741d9" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">ChromaDB\nvectors</text></g><g stroke-linecap="round" transform="translate(509.6770435259844 282.63997694421835) rotate(0 135.2050166906473 46.80173654676253)"><path d="M0 0 C89.17 0.38, 177.58 -0.57, 270.41 0 M0 0 C71.56 -1.69, 143.28 -0.84, 270.41 0 M270.41 0 C268.37 28.05, 268.71 60.44, 270.41 93.6 M270.41 0 C271.51 20.53, 271.46 42.17, 270.41 93.6 M270.41 93.6 C171.19 94.48, 71.3 95.95, 0 93.6 M270.41 93.6 C187.4 93.13, 105.2 91.82, 0 93.6 M0 93.6 C1.16 64.85, 0.53 36.79, 0 0 M0 93.6 C0.67 66.94, 0.4 39.52, 0 0" stroke="#6741d9" stroke-width="2" fill="none"></path></g><g transform="translate(531.4653960930966 303.44074874277953) rotate(0 113.41666412353516 26.000964748201397)"><text x="113.41666412353516" y="18.325479954532355" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20.80077179856113px" fill="#6741d9" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Clustering\n(K-Means ·</text><text x="113.41666412353516" y="44.32644470273377" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20.80077179856113px" fill="#6741d9" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">UMAP · …)</text></g><g stroke-linecap="round" transform="translate(675.9965453870245 428.2453808650166) rotate(0 78.39290871582722 44.72260361580936)"><path d="M0 0 C48.67 0.45, 100.18 0.84, 156.79 0 M0 0 C43.6 -1.93, 87.32 -2.1, 156.79 0 M156.79 0 C154.73 22, 154.53 43.98, 156.79 89.45 M156.79 0 C158.06 24.86, 158.26 47.52, 156.79 89.45 M156.79 89.45 C119.24 89.41, 80.41 89.23, 0 89.45 M156.79 89.45 C97.12 88.13, 36.98 88.69, 0 89.45 M0 89.45 C-0.4 59.1, 0.99 31.44, 0 0 M0 89.45 C0.2 56.33, 1.05 23.62, 0 0" stroke="#6741d9" stroke-width="2" fill="none"></path></g><g transform="translate(696.7394525769728 463.21762270025044) rotate(0 57.650001525878906 9.750361780575531)"><text x="57.650001525878906" y="13.744109965899266" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="15.600578848920847px" fill="#6741d9" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Cluster\nCache</text></g><g stroke-linecap="round"><g transform="translate(644.8970996616056 236.87827831696745) rotate(0 -0.2286520434687418 19.487294881790547)"><path d="M0.03 -0.13 C0.07 3.18, 0.15 13.68, 0.16 20.23 C0.17 26.79, 0.07 36.06, 0.08 39.2 M-0.62 -0.67 C-0.63 2.46, -0.25 12.79, -0.19 19.51 C-0.12 26.23, -0.33 36.32, -0.23 39.64" stroke="#6741d9" stroke-width="2" fill="none"></path></g><g transform="translate(644.8970996616056 236.87827831696745) rotate(0 -0.2286520434687418 19.487294881790547)"><path d="M-3.66 30.37 C-2.76 33.18, -1.24 35.75, -0.23 39.64 M-3.66 30.37 C-2.96 32.49, -1.75 34.68, -0.23 39.64" stroke="#6741d9" stroke-width="2" fill="none"></path></g><g transform="translate(644.8970996616056 236.87827831696745) rotate(0 -0.2286520434687418 19.487294881790547)"><path d="M3.1 30.34 C2.07 33.16, 1.65 35.73, -0.23 39.64 M3.1 30.34 C2.16 32.44, 1.73 34.64, -0.23 39.64" stroke="#6741d9" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(645.4020795115957 376.7637445138164) rotate(0 16.281004965362968 28.162266297169026)"><path d="M0.38 1.03 C0.3 5.21, -6.38 15.8, -0.36 24.79 C5.65 33.77, 30.54 49.89, 36.48 54.95 M-0.88 0.53 C-1.11 4.87, -7.37 16.75, -1.23 25.96 C4.91 35.17, 29.9 50.81, 35.96 55.8" stroke="#6741d9" stroke-width="2" fill="none"></path></g><g transform="translate(645.4020795115957 376.7637445138164) rotate(0 16.281004965362968 28.162266297169026)"><path d="M13.1 49.3 C21.8 51.47, 25.91 53.96, 35.96 55.8 M13.1 49.3 C19.13 50.12, 23.73 51.48, 35.96 55.8" stroke="#6741d9" stroke-width="2" fill="none"></path></g><g transform="translate(645.4020795115957 376.7637445138164) rotate(0 16.281004965362968 28.162266297169026)"><path d="M22.63 36.13 C28.38 42.36, 29.58 48.88, 35.96 55.8 M22.63 36.13 C26.42 39.86, 28.88 44.19, 35.96 55.8" stroke="#6741d9" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round" transform="translate(10 58.333333333333485) rotate(0 165 238.71322631835938)"><path d="M0 0 C108.57 0.23, 217.69 -1.15, 330 0 M0 0 C80.16 1.14, 160.31 1.51, 330 0 M330 0 C331.76 177.28, 330.7 352.54, 330 477.43 M330 0 C330.59 99.59, 330.55 199.99, 330 477.43 M330 477.43 C221.51 477.42, 113.73 478.05, 0 477.43 M330 477.43 C221.17 477.68, 113.26 477.74, 0 477.43 M0 477.43 C-1.33 344.35, -0.91 209.09, 0 0 M0 477.43 C-1.66 301.66, -1.35 124.86, 0 0" stroke="#f08c00" stroke-width="2" fill="none"></path></g><g transform="translate(128.70000076293945 63.333333333333485) rotate(0 46.29999923706055 12.5)"><text x="46.29999923706055" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#f08c00" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Ingestion</text></g><g stroke-linecap="round" transform="translate(45 83.33333333333348) rotate(0 130 45)"><path d="M0 0 C86.99 2.77, 174.59 1.91, 260 0 M0 0 C55.9 1.04, 111.21 1.47, 260 0 M260 0 C257.97 35.37, 259.9 68.81, 260 90 M260 0 C259.95 21.43, 259.79 44.62, 260 90 M260 90 C187.93 91.88, 114.83 89.5, 0 90 M260 90 C165.6 92.01, 71.53 91.54, 0 90 M0 90 C0.87 56.83, 1.42 20.78, 0 0 M0 90 C-1.36 56.4, -1.42 23.66, 0 0" stroke="#f08c00" stroke-width="2" fill="none"></path></g><g transform="translate(64.1500015258789 103.33333333333348) rotate(0 110.8499984741211 25)"><text x="110.8499984741211" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#f08c00" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Conference\nWebsite /</text><text x="110.8499984741211" y="42.62" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#f08c00" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">API</text></g><g stroke-linecap="round" transform="translate(92.11666870117188 253.33333333333348) rotate(0 82.88333129882812 30)"><path d="M0 0 C63.22 0.87, 129.25 0.77, 165.77 0 M0 0 C57.79 -1.86, 113.27 -2.53, 165.77 0 M165.77 0 C164.76 19.3, 167.43 40.68, 165.77 60 M165.77 0 C165.63 13.41, 166.09 25.91, 165.77 60 M165.77 60 C103.21 59.09, 39.58 58.55, 0 60 M165.77 60 C105.82 60.69, 43.37 60.82, 0 60 M0 60 C0.87 38.85, -2.4 12.84, 0 0 M0 60 C-0.19 42.07, -0.2 25.15, 0 0" stroke="#f08c00" stroke-width="2" fill="none"></path></g><g transform="translate(119.45000076293945 270.8333333333335) rotate(0 55.54999923706055 12.5)"><text x="55.54999923706055" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#f08c00" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Downloader</text></g><g stroke-linecap="round" transform="translate(78.75 388.3333319869697) rotate(0 107.5 61.213233947753906)"><path d="M0 0 C81.32 -0.17, 162.82 0.18, 215 0 M0 0 C59.65 1.76, 118.45 1.25, 215 0 M215 0 C214.27 32.36, 216.08 63.79, 215 122.43 M215 0 C216.16 43.97, 214.67 88.71, 215 122.43 M215 122.43 C150.17 122.1, 83.13 123.59, 0 122.43 M215 122.43 C139.24 124.56, 62.22 124.35, 0 122.43 M0 122.43 C0.92 72.71, 2.44 24.15, 0 0 M0 122.43 C1.21 92.38, -0.17 61.66, 0 0" stroke="#f08c00" stroke-width="2" fill="none"></path></g><g transform="translate(93.93333435058594 442.0465659347236) rotate(0 92.31666564941406 7.5)"><text x="92.31666564941406" y="10.572" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="12px" fill="#f08c00" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">SQL DB\nSQLite / PostgreSQL</text></g><g mask="url(#mask-83SqCWAQiArDvhF__29G-)" stroke-linecap="round"><g transform="translate(175 173.83333333333348) rotate(0 0.4477119677278836 37.47082247768526)"><path d="M1.03 -0.29 C0.77 5.92, -0.61 25.85, -0.72 38.41 C-0.82 50.97, 0.35 69.08, 0.41 75.07 M0.1 -1.48 C0.17 5.34, 1.66 26.39, 1.62 39.37 C1.58 52.36, 0.18 70.46, -0.14 76.43" stroke="#f08c00" stroke-width="2" fill="none"></path></g><g transform="translate(175 173.83333333333348) rotate(0 0.4477119677278836 37.47082247768526)"><path d="M-5.16 59.4 C-3.58 64.52, -2.94 72.41, -0.14 76.43 M-5.16 59.4 C-4.01 65.36, -1.88 69.08, -0.14 76.43" stroke="#f08c00" stroke-width="2" fill="none"></path></g><g transform="translate(175 173.83333333333348) rotate(0 0.4477119677278836 37.47082247768526)"><path d="M6.96 60.16 C4.1 65.1, 0.32 72.72, -0.14 76.43 M6.96 60.16 C4.41 65.82, 2.83 69.31, -0.14 76.43" stroke="#f08c00" stroke-width="2" fill="none"></path></g></g><mask id="mask-83SqCWAQiArDvhF__29G-"><rect x="0" y="0" fill="#fff" width="275" height="348.8333333333335"></rect><rect x="148.64999961853027" y="200.83333333333348" fill="#000" width="52.70000076293945" height="25" opacity="1"></rect></mask><g transform="translate(148.64999961853027 200.83333333333348) rotate(0 26.79771234919761 10.47082247768526)"><text x="26.350000381469727" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#f08c00" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">plugin</text></g><g stroke-linecap="round"><g transform="translate(175.5 313.8333333333335) rotate(0 0.0916024162661273 34.330598456220685)"><path d="M0.41 0.07 C0.39 4.23, -0.61 15.47, -0.84 23.87 C-1.07 32.27, -1.44 42.95, -0.95 50.48 C-0.46 58, 1.62 65.76, 2.09 69.04 M-0.83 -0.94 C-0.98 3.47, -1.78 16.82, -1.97 25.08 C-2.16 33.34, -2.71 41.23, -1.96 48.65 C-1.21 56.07, 2.11 65.95, 2.52 69.6" stroke="#f08c00" stroke-width="2" fill="none"></path></g><g transform="translate(175.5 313.8333333333335) rotate(0 0.0916024162661273 34.330598456220685)"><path d="M-2.96 60.82 C-1.66 62.62, -0.95 64.63, 2.52 69.6 M-2.96 60.82 C-0.78 64.24, 1.14 67.87, 2.52 69.6" stroke="#f08c00" stroke-width="2" fill="none"></path></g><g transform="translate(175.5 313.8333333333335) rotate(0 0.0916024162661273 34.330598456220685)"><path d="M3.96 59.35 C3.58 61.52, 2.63 63.89, 2.52 69.6 M3.96 59.35 C3.51 63.27, 2.78 67.46, 2.52 69.6" stroke="#f08c00" stroke-width="2" fill="none"></path></g></g><mask></mask><g mask="url(#mask-fGOPWfhbqFKDLCAo1GpyN)" stroke-linecap="round"><g transform="translate(299.75000000000006 446.9685071816639) rotate(0 120.16217853435018 -129.26320127275164)"><path d="M-0.34 -0.63 C10.6 -5.26, 40.94 8.12, 66.05 -27.73 C91.16 -63.59, 121.28 -177, 150.33 -215.74 C179.38 -254.49, 225.41 -252.89, 240.34 -260.18 M1.68 1.66 C12.39 -3.3, 40.18 6.76, 64.86 -29.34 C89.54 -65.45, 120.44 -176.69, 149.74 -214.97 C179.04 -253.26, 225.29 -251.76, 240.67 -259.05" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g><g transform="translate(299.75000000000006 446.9685071816639) rotate(0 120.16217853435018 -129.26320127275164)"><path d="M220.13 -244.8 C225.94 -250.26, 235.48 -253.69, 240.67 -259.05 M220.13 -244.8 C224.29 -247.25, 229.13 -250.61, 240.67 -259.05" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g><g transform="translate(299.75000000000006 446.9685071816639) rotate(0 120.16217853435018 -129.26320127275164)"><path d="M215.77 -261.34 C223.05 -261.26, 234.04 -259.16, 240.67 -259.05 M215.77 -261.34 C220.88 -260.26, 226.66 -260.09, 240.67 -259.05" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g></g><mask id="mask-fGOPWfhbqFKDLCAo1GpyN"><rect x="0" y="0" fill="#fff" width="639.9397244774398" height="807.200259700505"></rect><rect x="328.5103301461636" y="312.31312562707626" fill="#000" width="157.13333129882812" height="25" opacity="1"></rect></mask><g transform="translate(328.5103301461636 312.31312562707626) rotate(0 91.40184838818669 5.3921802818359765)"><text x="78.56666564941406" y="17.619999999999997" font-family="Excalifont, Xiaolai, sans-serif, Segoe UI Emoji" font-size="20px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">embedding model</text></g><g stroke-linecap="round"><g transform="translate(1211.1666615804038 498.3348470878791) rotate(0 -230.34754199945803 -165.3617791752817)"><path d="M0.35 -1.04 C-27.09 -8.43, -120.43 -0.28, -165.08 -43.36 C-209.72 -86.44, -218.2 -211.46, -267.52 -259.52 C-316.85 -307.59, -428.91 -319.64, -461.04 -331.76 M-0.93 1.03 C-28.47 -6.23, -121.37 1.96, -165.95 -41.8 C-210.53 -85.55, -219.31 -213.38, -268.42 -261.49 C-317.54 -309.6, -428.5 -318.75, -460.64 -330.47" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g><g transform="translate(1211.1666615804038 498.3348470878791) rotate(0 -230.34754199945803 -165.3617791752817)"><path d="M-435.81 -333.39 C-444.02 -332.3, -448.73 -332.21, -460.64 -330.47 M-435.81 -333.39 C-443.88 -332.34, -454.3 -330.59, -460.64 -330.47" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g><g transform="translate(1211.1666615804038 498.3348470878791) rotate(0 -230.34754199945803 -165.3617791752817)"><path d="M-439.74 -316.74 C-447.06 -320.03, -450.73 -324.31, -460.64 -330.47 M-439.74 -316.74 C-446.45 -321.7, -455.45 -325.94, -460.64 -330.47" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(1287.8894257796962 508.16666666666686) rotate(0 -223.96880816512078 -12.862715635990355)"><path d="M0.15 0.05 C-22.5 1.48, -75.38 8.28, -135.54 7.55 C-195.7 6.83, -308.73 2.51, -360.82 -4.3 C-412.91 -11.12, -433.25 -28.63, -448.09 -33.33 M-1.23 -0.97 C-24.09 0.21, -76.59 6.72, -136.62 5.8 C-196.65 4.89, -309.65 -0.12, -361.43 -6.46 C-413.21 -12.81, -432.86 -28.07, -447.31 -32.27" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g><g transform="translate(1287.8894257796962 508.16666666666686) rotate(0 -223.96880816512078 -12.862715635990355)"><path d="M-422.33 -31.24 C-430.45 -31.97, -437.56 -31.39, -447.31 -32.27 M-422.33 -31.24 C-431.18 -30.97, -438.68 -31.23, -447.31 -32.27" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g><g transform="translate(1287.8894257796962 508.16666666666686) rotate(0 -223.96880816512078 -12.862715635990355)"><path d="M-428.84 -15.42 C-434.69 -21.36, -439.65 -25.98, -447.31 -32.27 M-428.84 -15.42 C-435.68 -20.35, -441.04 -25.8, -447.31 -32.27" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(1211.1666615804036 476.005512668964) rotate(0 -483.9034540919919 -212.00869835471804)"><path d="M-0.25 0.72 C-14.5 -8.75, -55.32 6.9, -85.3 -56.73 C-115.29 -120.37, -60.78 -325.65, -180.15 -381.1 C-299.52 -436.54, -670.17 -437.47, -801.51 -389.42 C-932.85 -341.38, -940.36 -142.24, -968.2 -92.82 M1.82 0.05 C-12.57 -9.8, -55.73 4.63, -86.09 -58.68 C-116.46 -121.99, -61.12 -324.34, -180.38 -379.83 C-299.64 -435.31, -670.13 -439.56, -801.67 -391.59 C-933.21 -343.61, -942.03 -141.66, -969.62 -91.98" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g><g transform="translate(1211.1666615804036 476.005512668964) rotate(0 -483.9034540919919 -212.00869835471804)"><path d="M-970.97 -116.94 C-969.34 -108.64, -969.55 -99.64, -969.62 -91.98 M-970.97 -116.94 C-970.66 -108.94, -970.54 -101.68, -969.62 -91.98" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g><g transform="translate(1211.1666615804036 476.005512668964) rotate(0 -483.9034540919919 -212.00869835471804)"><path d="M-954.61 -111.97 C-958.1 -105.25, -963.42 -97.81, -969.62 -91.98 M-954.61 -111.97 C-959.06 -105.32, -963.71 -99.51, -969.62 -91.98" stroke="#1e1e1e" stroke-width="2" fill="none"></path></g></g><mask></mask></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="304.00363mm"
+   height="137.88936mm"
+   viewBox="0 0 304.00363 137.88936"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="architecture.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4.423179"
+     inkscape:cx="149.55307"
+     inkscape:cy="224.83829"
+     inkscape:window-width="1463"
+     inkscape:window-height="916"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(49.2125,-79.63957)">
+    <g
+       id="g78"
+       transform="matrix(0.1203082,0,0,0.11986388,-49.59194,88.51087)"
+       style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+      <g
+         stroke-linecap="round"
+         transform="matrix(1,0,0,1.0744235,1743.9559,-67.993115)"
+         id="g1"
+         style="stroke-width:4.25121;stroke-linecap:butt;stroke-linejoin:round">
+        <path
+           d="M 780.77,0 C 400.02,-1.85 199.94,-1.75 0,0 v 0 c 235.16,2.2 470.24,1.68 780.77,0 v 0 c -2.36,257.5 -2.21,514.88 0,1060.83 v 0 c 1.34,-433.52 1.46,-747.5 0,-1060.83 z M 0,1060.83 C -4.52,726.62 -3.67,392.68 0,0 v 0 c -1.18,472.31 -1.28,766.49 0,1060.83 v 0 c 221.91,-0.26 500.75,0.09 780.77,0 v 0 c -177.56,-2.41 -355.35,-1.88 -780.77,0 z"
+           stroke="#2f9e44"
+           stroke-width="8.50243"
+           fill="none"
+           id="path1-3"
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           sodipodi:nodetypes="ccccccccccccccccc" />
+      </g>
+      <g
+         transform="translate(2075.7171,15)"
+         id="g2"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="58.366665"
+           y="13.865555"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="40.7937px"
+           fill="#2f9e44"
+           text-anchor="middle"
+           style="font-size:94.0068px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text1-0">Agent</text>
+      </g>
+      <g
+         transform="translate(2087.8926,135.8159)"
+         id="g4"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           id="g135"
+           style="stroke-linecap:butt;stroke-linejoin:round">
+          <g
+             stroke-linecap="round"
+             transform="translate(-56.145536,-50.657235)"
+             id="g3"
+             style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+            <path
+               d="M 203.42,122.38 C 203.38,74.05 203.85,37.77 203.42,0 V 0 C 148.48,0 74.81,-1.93 0,0 v 0 c 75.58,1.49 150.36,0.55 203.42,0 v 0 c -2.05,34.28 0.45,69.56 0,122.38 z m 0,0 c -55.75,-2.2 -110.17,-0.94 -203.42,0 v 0 C -1.09,92.16 0.45,62.33 0,0 v 0 c 0.85,52.53 -1.33,87.95 0,122.38 v 0 c 103.89,1.03 154,2.25 203.42,0 z"
+               stroke="#2f9e44"
+               stroke-width="8.81314"
+               fill="none"
+               id="path2-0"
+               style="stroke-linecap:butt;stroke-linejoin:round"
+               sodipodi:nodetypes="cccccccccccccccccc" />
+          </g>
+          <text
+             x="45.566666"
+             y="35.939205"
+             font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+             font-size="40.7937px"
+             fill="#2f9e44"
+             text-anchor="middle"
+             style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+             direction="ltr"
+             dominant-baseline="alphabetic"
+             id="text3">User</text>
+        </g>
+      </g>
+      <g
+         id="g137"
+         transform="translate(-53.535162)"
+         style="stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           stroke-linecap="round"
+           transform="translate(1921.9309,560.71429)"
+           id="g7"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -29.93924,0 c 234.17686,-0.69 467.00698,0 590.25035,0 v 0 c 0.50085,53.02 -1.93663,104.95 0,183.57 v 0 c -1.27996,-70.87 -2.0702,-127.64 0,-183.57 V 0 C 236.10304,1.24 102.97616,1.49 -29.93924,0 Z m 0,0 c -0.189211,60.19 0.244862,123.34 0,183.57 v 0 c 243.89342,0.21 418.11255,-0.05 590.25035,0 v 0 c -219.03996,-0.14 -438.31364,-0.71 -590.25035,0 v 0 c -0.745715,-38.64 -0.801366,-77.17 0,-183.57 z"
+             stroke="#1971c2"
+             stroke-width="8.81314"
+             fill="none"
+             id="path6-5"
+             style="stroke-linecap:butt;stroke-linejoin:round"
+             sodipodi:nodetypes="cccccccccccccccccc" />
+        </g>
+        <g
+           transform="translate(2086.3229,642.73284)"
+           id="g8"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <text
+             x="100.76667"
+             y="-12.61913"
+             font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+             font-size="40.7937px"
+             fill="#1971c2"
+             text-anchor="middle"
+             style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+             direction="ltr"
+             dominant-baseline="alphabetic"
+             id="text7-7"><tspan
+               sodipodi:role="line"
+               id="tspan97"
+               x="100.76666"
+               y="-12.61913">RAG Chat</tspan><tspan
+               sodipodi:role="line"
+               id="tspan98"
+               x="100.76666"
+               y="76.200768">(Blablador LLM)</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g138"
+         transform="translate(-53.591201)"
+         style="stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           stroke-linecap="round"
+           transform="matrix(1.2738088,0,0,1,1994.9807,907.46032)"
+           id="g9-0"
+           style="stroke-width:3.90435;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="M 301.7,122.38 C 302.16,57.31 301.95,28.9 301.7,0 V 0 C 121.19,-0.49 59.92,1.09 0,0 v 0 c 110.89,-0.25 222.39,0.17 301.7,0 v 0 c -0.69,36.54 -2.3,75.23 0,122.38 z m 0,0 c -116.17,-1.82 -233.36,-1.7 -301.7,0 v 0 c 148,0.16 226.06,-0.21 301.7,0 z M 0,122.38 C -0.8,75.92 0.28,27.86 0,0 v 0 c -1.4,37.4 0.05,80.11 0,122.38 z"
+             stroke="#9c36b5"
+             stroke-width="7.8087"
+             fill="none"
+             id="path8-1"
+             style="stroke-linecap:butt;stroke-linejoin:round"
+             sodipodi:nodetypes="cccccccccccccccccc" />
+        </g>
+        <g
+           transform="translate(2079.9063,958.96774)"
+           id="g10"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <text
+             x="107.18333"
+             y="35.939205"
+             font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+             font-size="40.7937px"
+             fill="#9c36b5"
+             text-anchor="middle"
+             style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+             direction="ltr"
+             dominant-baseline="alphabetic"
+             id="text9-8">MCP Tools</text>
+        </g>
+      </g>
+      <g
+         stroke-linecap="round"
+         id="g14"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+         transform="translate(-52.781111)">
+        <g
+           transform="translate(2093.9208,213.53968)"
+           id="g11-6"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -0.61,0.81 c -7.69,3.6 -37.44,9.64 -44.82,20.08 -7.39,10.44 0.29,35.34 0.52,42.55 M 1.27,0.2 c -7.35,3.86 -36.48,11.52 -44.32,22.26 -7.84,10.74 -2.64,35.01 -2.71,42.18"
+             stroke="#2f9e44"
+             stroke-width="8.81314"
+             fill="none"
+             id="path10-3"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(2093.9208,213.53968)"
+           id="g12-0"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -54.75,45.21 c 4.46,5.95 6.42,13.68 8.99,19.43 m -8.99,-19.43 c 2.76,4.74 4.86,11 8.99,19.43"
+             stroke="#2f9e44"
+             stroke-width="8.81314"
+             fill="none"
+             id="path11-9"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(2093.9208,213.53968)"
+           id="g13"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -40.15,43.97 c -0.77,6.32 -4.02,14.5 -5.61,20.67 m 5.61,-20.67 c -1.35,5.15 -3.37,11.76 -5.61,20.67"
+             stroke="#2f9e44"
+             stroke-width="8.81314"
+             fill="none"
+             id="path12"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+      </g>
+      <g
+         stroke-linecap="round"
+         id="g18"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+         transform="translate(-57.179537)">
+        <g
+           transform="translate(2049.1497,413.7381)"
+           id="g15-6"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -0.62,0.06 c 0.07,7.33 0.22,28.65 0.44,44.71 0.21,16.07 -6.45,35.79 0.84,51.69 7.29,15.89 35.85,36.24 42.91,43.67 M 1.25,-0.95 c -0.05,7.44 -2.3,31.26 -2.46,47.15 -0.17,15.88 -6.05,32.39 1.47,48.16 7.52,15.77 36.17,38.58 43.63,46.44"
+             stroke="#1971c2"
+             stroke-width="8.81314"
+             fill="none"
+             id="path14-2"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(2049.1497,413.7381)"
+           id="g16"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m 20.87,131.05 c 5.91,2.3 11.17,6.13 23.02,9.75 m -23.02,-9.75 c 7.5,3.55 14.87,6.05 23.02,9.75"
+             stroke="#1971c2"
+             stroke-width="8.81314"
+             fill="none"
+             id="path15"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(2049.1497,413.7381)"
+           id="g17"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m 32.52,118.53 c 3.09,5.36 5.45,12.31 11.37,22.27 M 32.52,118.53 c 3.56,7.72 6.98,14.47 11.37,22.27"
+             stroke="#1971c2"
+             stroke-width="8.81314"
+             fill="none"
+             id="path16"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+      </g>
+      <g
+         transform="translate(2055.5679,800.37698)"
+         id="g23"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="80.116669"
+           y="35.939205"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="40.7937px"
+           fill="#9c36b5"
+           text-anchor="middle"
+           style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text23">tool call</text>
+      </g>
+      <g
+         id="g139"
+         transform="translate(-52.781111)"
+         style="stroke-linecap:butt;stroke-linejoin:round">
+        <path
+           d="m 2337.8796,285.72241 c 0.5061,-16.64232 0.6617,-24.66171 -1.1996,-37.25025 -10.58,-21.88 -52.23,-29.3 -62.63,-35.09 m 63.8296,72.34025 c -0.7,-17.56199 3.3915,-23.56649 -2.5096,-37.22025 -10.34,-22.08 -49.9,-29.77 -59.95,-35.7"
+           style="fill:none;stroke:#099268;stroke-width:8.81314;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+           id="path1-0"
+           sodipodi:nodetypes="cccccc" />
+        <g
+           transform="translate(2288.3681,554.71429)"
+           id="g25"
+           style="stroke:#099268;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 8.97,-340.1 c -10.35,-0.89 -17.72,-2.05 -24.99,-0.76 m 24.99,0.76 c -5.43,-0.91 -11.44,0.22 -24.99,-0.76"
+             stroke="#1971c2"
+             stroke-width="8.81314"
+             fill="none"
+             id="path24"
+             style="stroke:#099268;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+        </g>
+        <g
+           transform="translate(2288.3681,554.71429)"
+           id="g26"
+           style="stroke:#099268;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 2.64,-324.22 c -8.15,-6.58 -13.25,-13.42 -18.66,-16.64 m 18.66,16.64 c -3.92,-4.48 -8.49,-6.96 -18.66,-16.64"
+             stroke="#1971c2"
+             stroke-width="8.81314"
+             fill="none"
+             id="path25"
+             style="stroke:#099268;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+        </g>
+      </g>
+      <g
+         stroke-linecap="round"
+         transform="matrix(1,0,0,1.0914728,796.86125,-69.328549)"
+         id="g28"
+         style="stroke-width:4.21788;stroke-linecap:butt;stroke-linejoin:round">
+        <path
+           d="m 843.17,0.03113754 c -319.19,0.8605053 -580.82,0.56581171 -843.17,0 v 0 c 193.94,2.59330366 388,2.71118116 843.17,0 z m 0,1040.90486246 c -1.43,-511.45835 -0.68,-776.27001 0,-1040.90486246 v 0 C 843.79,401.46275 843.38,803.33051 843.17,1040.936 Z m -843.17,0 c 182.09,2.169 512.07,2.2161 843.17,0 v 0 c -289.25,3.784 -579.44,3.4656 -843.17,0 v 0 C -0.63,692.69075 0.44,345.42382 0,0.03113754 v 0 C -0.34,596.50276 -0.53,818.93749 0,1040.936 Z"
+           stroke="#6741d9"
+           stroke-width="8.43576"
+           fill="none"
+           id="path27-8"
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           sodipodi:nodetypes="ccccccccccccccccccc" />
+      </g>
+      <g
+         transform="translate(1055.2815,15)"
+         id="g29"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="163.16667"
+           y="15.304512"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="42.427px"
+           fill="#6741d9"
+           text-anchor="middle"
+           style="font-size:94.0068px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text28-4">Knowledge Base</text>
+      </g>
+      <g
+         stroke-linecap="round"
+         transform="translate(989.40351,85.533712)"
+         id="g30"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <path
+           d="M 0,0 C -1.48,90.63 -3.29,141.51 0,191.48 0.37,122.52 -1.11,54.33 0,0 89.39,1.31 179.71,0.95 403.62,0 302.03,-1.86 150.8,-2.46 0,0 Z m 403.62,0 c 1.29,58.82 -1.59,117.89 0,191.48 C 402.8,85.32 403.34,42.33 403.62,0 Z M 0,191.48 c 180.62,-2.35 292.39,-2.02 403.62,0 -150.74,2.31 -301.36,2.54 -403.62,0 z"
+           stroke="#6741d9"
+           stroke-width="8.81314"
+           fill="none"
+           id="path29"
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           sodipodi:nodetypes="ccccccccccc" />
+      </g>
+      <g
+         transform="translate(1037.1645,160.06015)"
+         id="g31-0"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="154.05"
+           y="3.4141483"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="33.9416px"
+           fill="#6741d9"
+           text-anchor="middle"
+           style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text30-7"><tspan
+             sodipodi:role="line"
+             id="tspan88"
+             x="154.05"
+             y="3.4141483">SQL DB</tspan><tspan
+             sodipodi:role="line"
+             id="tspan89"
+             x="154.05"
+             y="92.234047">ChromaDB</tspan></text>
+      </g>
+      <path
+         d="m 1500.4268,362.24766 c -2.9157,58.52 -2.5344,121.37 0,190.92 1.5927,-105.37 1.6487,-148.69 0,-190.92 -291.2393,-1.23 -454.943,-1.66 -618.55706,0 1.14392,79.9 1.43551,135.79 0,190.92 1.25607,-59.17 0.54953,-117.65 0,-190.92 201.98016,0.27 403.52296,-0.22 618.55706,0 z m 0,190.92 c -226.3163,1.41 -453.014,2.16 -618.55706,0 240.25656,-1.5 429.17136,-0.83 618.55706,0 z"
+         stroke="#6741d9"
+         stroke-width="8.81315"
+         fill="none"
+         id="path31"
+         style="stroke-linecap:butt;stroke-linejoin:round"
+         sodipodi:nodetypes="cccccccccc" />
+      <g
+         transform="translate(959.13114,404.67463)"
+         id="g33"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="232.08333"
+           y="28.20578"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="42.427px"
+           fill="#6741d9"
+           text-anchor="middle"
+           style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text32-1"><tspan
+             sodipodi:role="line"
+             x="232.08333"
+             y="28.20578"
+             id="tspan85">Clustering</tspan><tspan
+             sodipodi:role="line"
+             id="tspan82"
+             x="232.08334"
+             y="117.02568">(Agglomerative)</tspan></text>
+        <text
+           x="232.08333"
+           y="90.411873"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="42.427px"
+           fill="#6741d9"
+           text-anchor="middle"
+           style="white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text33-2" />
+      </g>
+      <g
+         stroke-linecap="round"
+         transform="translate(986.31782,649.23646)"
+         id="g34"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <path
+           d="m 409.79,239.83149 c -2.8,-94.28 -2.59,-138.35 0,-182.44 v 0 c 1.93,49.68 2.13,97.17 0,182.44 z m -409.79,0 c 212.33,0.36 311.41,0.46 409.79,0 v 0 c -156.22,-1.93 -312.69,-1.62 -409.79,0 v 0 c -0.67,-60.57 0.73,-118.45 0,-182.44 v 0 c 128.67,0.88 258.91,1.1 409.79,0 v 0 c -182.35,-2.35 -296.1,-2.26 -409.79,0 v 0 c 1.23,47.59 0.38,114.82 0,182.44 z"
+           stroke="#6741d9"
+           stroke-width="8.81314"
+           fill="none"
+           id="path33"
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           sodipodi:nodetypes="cccccccccccccccccc" />
+      </g>
+      <g
+         transform="translate(1058.4978,689.9049)"
+         id="g35"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="132.71666"
+           y="89.107483"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="36px"
+           fill="#6741d9"
+           text-anchor="middle"
+           style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text34"><tspan
+             sodipodi:role="line"
+             id="tspan83"
+             x="132.71666"
+             y="89.107483">Cluster</tspan><tspan
+             sodipodi:role="line"
+             id="tspan84"
+             x="132.71666"
+             y="177.92738">Cache</tspan></text>
+      </g>
+      <g
+         stroke-linecap="round"
+         id="g39"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           transform="translate(1191.256,283.01356)"
+           id="g36"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m 0.07,-0.27 c 0.09,11.82 0.3,60.33 0.32,72.05 M -1.35,-1.46 C -1.37,9.97 -0.5,58.12 -0.36,70.2"
+             stroke="#6741d9"
+             stroke-width="8.81314"
+             fill="none"
+             id="path35"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(1191.256,283.01356)"
+           id="g37-2"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -9.26,46.84 c 2.26,7.31 6.98,13.64 8.9,23.36 m -8.9,-23.36 c 1.62,5.14 5.32,10.61 8.9,23.36"
+             stroke="#6741d9"
+             stroke-width="8.81314"
+             fill="none"
+             id="path36"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(1191.256,283.01356)"
+           id="g38"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="M 7.84,46.58 C 5.2,53.98 5.03,60.38 -0.36,70.2 M 7.84,46.58 C 5.32,51.66 4.88,57.19 -0.36,70.2"
+             stroke="#6741d9"
+             stroke-width="8.81314"
+             fill="none"
+             id="path37"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+      </g>
+      <g
+         stroke-linecap="round"
+         id="g43"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           transform="translate(1191.2687,559.16903)"
+           id="g40"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="M 0.38,1.03 C 0.39,14.97 0.13,69.68 0.14,83.37 M -0.88,0.53 c -0.14,14.11 0.02,127.07076 0.16,140.99076"
+             stroke="#6741d9"
+             stroke-width="8.81314"
+             fill="none"
+             id="path39"
+             style="stroke-linecap:butt;stroke-linejoin:round"
+             sodipodi:nodetypes="cccc" />
+        </g>
+        <g
+           transform="translate(1191.2687,559.16903)"
+           id="g41"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -9.4,118.49149 c 4.32,7.41 4.1,15.08 8.68,23.45 m -8.68,-23.45 c 2.72,4.56 4.14,9.74 8.68,23.45"
+             stroke="#6741d9"
+             stroke-width="8.81314"
+             fill="none"
+             id="path40"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(1191.2687,559.16903)"
+           id="g42"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m 7.7,118.40149 c -0.91,7.48 -6.36,15.19 -8.42,23.54 m 8.42,-23.54 c -1.13,4.48 -3.56,9.67 -8.42,23.54"
+             stroke="#6741d9"
+             stroke-width="8.81314"
+             fill="none"
+             id="path41-7"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+      </g>
+      <g
+         stroke-linecap="round"
+         transform="matrix(1,0,0,1.0363364,10,-28.513057)"
+         id="g44"
+         style="stroke-width:4.32863;stroke-linecap:butt;stroke-linejoin:round">
+        <path
+           d="M 0,1059.6171 C -3.5,654.68597 -3.21,248.76979 0,-39.115796 v 0 c 163.12,1.793841 326.23,2.011591 673.1,0 v 0 c 1.33,229.497606 1.29,459.772896 0,1098.732896 v 0 c -221.35,0.052 -442.16,0.083 -673.1,0 v 0 C -2.77,752.33107 -2.39,442.97124 0,-39.115796 v 0 c 222.59,-0.05185 445.51,-0.881367 673.1,0 v 0 c 2.62,406.973826 1.65,812.029376 0,1098.732896 v 0 c -221.37,0.1763 -442.32,0.5599 -673.1,0 z"
+           stroke="#f08c00"
+           stroke-width="8.65726"
+           fill="none"
+           id="path43"
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           sodipodi:nodetypes="ccccccccccccccccc" />
+      </g>
+      <g
+         transform="translate(251.64762,15)"
+         id="g45"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="94.900002"
+           y="13.865555"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="40.7937px"
+           fill="#f08c00"
+           text-anchor="middle"
+           style="font-size:94.0068px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text44-4">Ingestion</text>
+      </g>
+      <g
+         stroke-linecap="round"
+         transform="translate(79.722222,89.325397)"
+         id="g46"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <path
+           d="M 530.32,0 C 358.01,1.63 178.85,2.06 0,0 v 0 c 113.16,0.87 226.03,1.09 530.32,0 z m 0,183.57 C 530,140.94 528.06,71.44 530.32,0 v 0 c -0.41,44.6 -0.57,90.98 0,183.57 v 0 c -147.71,1.21 -295.93,0.02 -530.32,0 v 0 C -2.27,115.14 -2.33,47.58 0,0 v 0 c 0.9,41.86 0.35,114.16 0,183.57 v 0 c 145.88,1.54 338.02,1.78 530.32,0 z"
+           stroke="#f08c00"
+           stroke-width="8.81314"
+           fill="none"
+           id="path45"
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           sodipodi:nodetypes="cccccccccccccccccc" />
+      </g>
+      <g
+         transform="translate(151.93096,130.11905)"
+         id="g47"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="192.95"
+           y="31.524475"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="40.7937px"
+           fill="#f08c00"
+           text-anchor="middle"
+           style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text46-7"><tspan
+             sodipodi:role="line"
+             id="tspan90"
+             x="192.95"
+             y="31.524475">Conference</tspan><tspan
+             sodipodi:role="line"
+             id="tspan91"
+             x="192.95"
+             y="120.34438">Website</tspan></text>
+      </g>
+      <g
+         stroke-linecap="round"
+         transform="matrix(1.4033525,0,0,1,109.44776,407.7381)"
+         id="g48"
+         style="stroke-width:3.71978;stroke-linecap:butt;stroke-linejoin:round">
+        <path
+           d="M 0,0 C 116.7,-2.37 231.86,-2.82 338.11,0 V 0 C 264.54,0.08 131.33,0.14 0,0 Z m 338.11,122.38 c 1.7,-40 -0.97,-82.23 0,-122.38 v 0 c -0.06,26.73 0.41,52.55 0,122.38 z M 0,122.38 c 78.78,-1.7 208.81,-1.35 338.11,0 v 0 c -123.47,0.56 -248.62,0.64 -338.11,0 z m 0,0 C 0.15,86.36 0.14,51.35 0,0 v 0 c -3,27.21 0.27,77.22 0,122.38 z"
+           stroke="#f08c00"
+           stroke-width="7.43956"
+           fill="none"
+           id="path47"
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           sodipodi:nodetypes="cccccccccccccccccccc" />
+      </g>
+      <g
+         transform="translate(232.69762,458.52367)"
+         id="g49"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="113.85"
+           y="35.939205"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="40.7937px"
+           fill="#f08c00"
+           text-anchor="middle"
+           style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text48">Downloader</text>
+      </g>
+      <g
+         stroke-linecap="round"
+         transform="translate(143.56151,681.42857)"
+         id="g50"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <path
+           d="M 438.53,0 C 329.6,-0.68 164.74,-0.88 0,0 v 0 c 2.95,50.52 1.7,149.65 0,249.71 v 0 c 169.36,0.45 304.58,-0.41 438.53,0 v 0 c -155.61,2 -311.95,1.88 -438.53,0 v 0 C 1.53,188.16 0.41,126.05 0,0 v 0 c 121.23,2.03 241.97,1.74 438.53,0 v 0 c 0.25,65.69 1.73,130.63 0,249.71 v 0 c -0.01,-69.53 1.21,-159.94 0,-249.71 z"
+           stroke="#6741d9"
+           stroke-width="8.81314"
+           fill="none"
+           id="path49"
+           style="fill:#f08c00;fill-opacity:1;stroke:#f08c00;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+           sodipodi:nodetypes="ccccccccccccccccc" />
+      </g>
+      <g
+         transform="translate(273.06071,762.71486)"
+         id="g51-7"
+         style="fill:#f08c00;fill-opacity:1;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="89.76667"
+           y="31.716"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="36px"
+           fill="#6741d9"
+           text-anchor="middle"
+           style="font-size:70.5051px;white-space:pre;fill:#f08c00;fill-opacity:1;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text50"><tspan
+             sodipodi:role="line"
+             id="tspan119"
+             x="89.76667"
+             y="31.716">Embedding</tspan><tspan
+             sodipodi:role="line"
+             id="tspan120"
+             x="89.76667"
+             y="120.5359">Model</tspan></text>
+      </g>
+      <g
+         mask="url(#mask-83SqCWAQiArDvhF__29G-)"
+         stroke-linecap="round"
+         id="g55"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           transform="translate(345.08123,278.89683)"
+           id="g52-3"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="M 1.03,-0.29 C 1.02,9.29 0.6,2.5964408 0.75,22.766441 m 0,62.381939 C 0.9,105.32838 1.84,110.52 1.91,120.75 M 0.1,-1.48 C 0.42,8.71 2.88,2.1383508 3.08,22.738351 m 0,62.381939 C 3.29,105.72029 1.67,111.91 1.36,122.11"
+             stroke="#f08c00"
+             stroke-width="8.81314"
+             fill="none"
+             id="path51"
+             style="stroke-linecap:butt;stroke-linejoin:round"
+             sodipodi:nodetypes="cccccccc" />
+        </g>
+        <g
+           transform="translate(345.08123,278.89683)"
+           id="g53-8"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -6.27,98.3 c 2.54,7.44 3.99,18.02 7.63,23.81 M -6.27,98.3 c 1.89,8.14 4.89,13.74 7.63,23.81"
+             stroke="#f08c00"
+             stroke-width="8.81314"
+             fill="none"
+             id="path52"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(345.08123,278.89683)"
+           id="g54"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m 10.82,98.97 c -3.71,7.34 -8.51,17.68 -9.46,23.14 m 9.46,-23.14 c -3.34,7.84 -5.56,13.24 -9.46,23.14"
+             stroke="#f08c00"
+             stroke-width="8.81314"
+             fill="none"
+             id="path53"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+      </g>
+      <g
+         transform="translate(292.51429,313.15476)"
+         id="g56"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <text
+           x="54.033333"
+           y="35.939205"
+           font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+           font-size="40.7937px"
+           fill="#f08c00"
+           text-anchor="middle"
+           style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+           direction="ltr"
+           dominant-baseline="alphabetic"
+           id="text56">plugin</text>
+      </g>
+      <g
+         stroke-linecap="round"
+         id="g60"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           transform="translate(346.57745,536.11905)"
+           id="g57"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m 0.41,0.07 c 0.06,7.58 -0.63,28.15 -0.78,44.29 -0.15,16.15 -0.05,37.28 -0.11,52.6 -0.07,15.32 -0.19,32.58 -0.27,39.31 M -0.83,-0.94 c -0.07,7.82 -0.56,30.5 -0.67,46.51 -0.11,16.01 -0.18,34.35 0.01,49.56 0.2,15.21 1.31,34.59 1.17,41.7"
+             stroke="#f08c00"
+             stroke-width="8.81314"
+             fill="none"
+             id="path56"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(346.57745,536.11905)"
+           id="g58"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -7.71,117.53 c 1.72,4.04 2.33,8.49 7.39,19.3 m -7.39,-19.3 c 3,7.46 5.48,15.38 7.39,19.3"
+             stroke="#f08c00"
+             stroke-width="8.81314"
+             fill="none"
+             id="path57"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(346.57745,536.11905)"
+           id="g59"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m 6.43,117.29 c -1.68,4.15 -4.47,8.66 -6.75,19.54 m 6.75,-19.54 c -2.39,7.44 -5.3,15.44 -6.75,19.54"
+             stroke="#f08c00"
+             stroke-width="8.81314"
+             fill="none"
+             id="path58"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+      </g>
+      <g
+         mask="url(#mask-fGOPWfhbqFKDLCAo1GpyN)"
+         stroke-linecap="round"
+         id="g64"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           transform="translate(588.09325,804.92925)"
+           id="g61"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -0.34,-0.63 c 19.8,-4.43 96.6,67.47 119.54,-25.91 22.93,-93.38 -27.95,-435.1 18.09,-534.36 46.04,-99.27 215.21,-51.15 258.17,-61.24 M 1.68,1.66 c 19.56,-4.76 93.82,63.82 116.33,-29.81 22.5,-93.63 -27.6,-433.17 18.7,-531.98 46.29,-98.81 215.68,-50.79 259.08,-60.88"
+             stroke="#6741d9"
+             stroke-width="8.81314"
+             fill="none"
+             id="path60"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(588.09325,804.92925)"
+           id="g62"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m 372.16,-612.84 c 6.84,-3.42 17.42,-4.82 23.63,-8.17 m -23.63,8.17 c 4.82,-1.16 10.33,-3.22 23.63,-8.17"
+             stroke="#6741d9"
+             stroke-width="8.81314"
+             fill="none"
+             id="path61"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(588.09325,804.92925)"
+           id="g63"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m 372.44,-629.94 c 6.76,2.3 17.24,6.61 23.35,8.93 m -23.35,-8.93 c 4.78,2.49 10.23,4.09 23.35,8.93"
+             stroke="#6741d9"
+             stroke-width="8.81314"
+             fill="none"
+             id="path62"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+      </g>
+      <g
+         stroke-linecap="round"
+         id="g69"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           transform="translate(2030.2381,909.21489)"
+           id="g66"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="M -96.484741,32.097269 C -128.52474,19.897269 -141.32,37.29 -192.66,-72.26 -244,-181.81 -234.67,-549.33 -307.71,-658.34 c -73.04,-109.01 -269.46,-56.58 -323.2,-67.99 M -96.484741,32.097269 C -128.62474,20.017268 -142.25,39.52 -193.53,-70.7 c -51.28,-110.22 -42.25,-480.55 -115.08,-589.6 -72.83,-109.06 -268.14,-53.73 -321.9,-64.74"
+             stroke="#9c36b5"
+             stroke-width="8.81314"
+             fill="none"
+             id="path65"
+             style="stroke-linecap:butt;stroke-linejoin:round"
+             sodipodi:nodetypes="cssccscc" />
+        </g>
+        <g
+           transform="translate(2030.2381,909.21489)"
+           id="g67"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -121.16746,36.047924 c 8.16229,-0.996842 12.72467,-1.759455 24.682719,-3.950655 m -24.682719,3.950655 c 8.02563,-1.599244 18.50522,-3.383876 24.682719,-3.950655"
+             stroke="#9c36b5"
+             stroke-width="8.81314"
+             fill="none"
+             id="path66"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(2030.2381,909.21489)"
+           id="g68"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -117.95061,19.251181 c 7.4568,3.4334 11.16496,7.079092 21.465869,12.846088 M -117.95061,19.251181 c 6.91105,4.450851 16.22718,8.705742 21.465869,12.846088"
+             stroke="#9c36b5"
+             stroke-width="8.81314"
+             fill="none"
+             id="path67"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+      </g>
+      <g
+         id="g136"
+         transform="translate(-47.115919)"
+         style="stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           stroke-linecap="round"
+           transform="translate(1976.5033,285.35714)"
+           id="g5"
+           style="fill:none;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="M 409.13,0 C 202.98,-1.33 102.61,-0.22 0,0 v 0 c 141.32,0.94 283.09,1.03 409.13,0 v 0 c 0.93,30.24 0.46,62.13 0,122.38 v 0 C 408.5,82.33 408.94,41.61 409.13,0 Z M 0,122.38 c 201.54,0.74 304.3,0.5 409.13,0 v 0 C 245.44,121.97 81.93,121.45 0,122.38 Z M 0,0 c -0.38,62.79 -0.75,91.88 0,122.38 v 0 C -2.21,82.59 -2.55,40.02 0,0 Z"
+             stroke="#099268"
+             stroke-width="8.81314"
+             fill="none"
+             id="path4-4"
+             style="fill:none;stroke-linecap:butt;stroke-linejoin:round"
+             sodipodi:nodetypes="ccccccccccccccccc" />
+        </g>
+        <g
+           transform="translate(2108.8332,336.80552)"
+           id="g6"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <text
+             x="72.23333"
+             y="35.939205"
+             font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
+             font-size="40.7937px"
+             fill="#099268"
+             text-anchor="middle"
+             style="font-size:70.5051px;white-space:pre;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round"
+             direction="ltr"
+             dominant-baseline="alphabetic"
+             id="text5">Web UI</text>
+        </g>
+      </g>
+      <g
+         stroke-linecap="round"
+         id="g73"
+         style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+        <g
+           transform="translate(2030.2381,969.17366)"
+           id="g70"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="M -92.71947,2.3257759 C -130.33947,5.8057759 -169.17,47.45 -225.36,19.87 c -56.19,-27.57 -44.67,-144.02 -111.63,-185.25 -66.96,-41.24 -241.47,-51.92 -290.12,-62.14 M -94.09947,1.3057759 C -131.92947,4.5357759 -170.38,45.89 -226.44,18.13 -282.5,-9.63 -270.95,-126.78 -337.6,-167.55 c -66.64,-40.76 -240.48,-49.19 -288.73,-58.91"
+             stroke="#9c36b5"
+             stroke-width="8.81314"
+             fill="none"
+             id="path69"
+             style="stroke-linecap:butt;stroke-linejoin:round"
+             sodipodi:nodetypes="cccccscc" />
+        </g>
+        <g
+           transform="translate(2030.2381,969.17366)"
+           id="g71"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -115.73485,13.883244 c 7.20491,-3.760206 12.97948,-8.4291895 21.63538,-12.5774681 m -21.63538,12.5774681 c 7.48846,-4.8889058 13.89414,-8.8879484 21.63538,-12.5774681"
+             stroke="#9c36b5"
+             stroke-width="8.81314"
+             fill="none"
+             id="path70"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+        <g
+           transform="translate(2030.2381,969.17366)"
+           id="g72"
+           style="stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round">
+          <path
+             d="m -118.72295,-2.957525 c 8.04842,1.8354564 14.80349,2.69759173 24.62348,4.2633009 m -24.62348,-4.2633009 c 8.6024,0.5997607 15.98857,2.13183783 24.62348,4.2633009"
+             stroke="#9c36b5"
+             stroke-width="8.81314"
+             fill="none"
+             id="path71-7"
+             style="stroke-linecap:butt;stroke-linejoin:round" />
+        </g>
+      </g>
+      <g
+         id="g127"
+         transform="translate(-57.179537)"
+         style="stroke-linecap:butt;stroke-linejoin:round">
+        <path
+           d="m 2288.4981,553.87429 c 7.59,-7.56 38.49,-28.05 46.08,-44.05 7.59,-16 -0.5,-24.61 -0.53,-51.96 -0.03,-27.36 0.6413,-15.52699 0.5713,-50.25699 m -47.5113,148.43699 c 7.34,-7.39 38.1,-28.41 46.32,-44.63 8.23,-16.22 2.87,-25.19 3.03,-52.69 0.16,-27.51 -1.1487,-16.25699 -1.8387,-51.11699"
+           stroke="#1971c2"
+           stroke-width="8.81314"
+           fill="none"
+           id="path23"
+           style="stroke-linecap:butt;stroke-linejoin:round"
+           sodipodi:nodetypes="csscccsc" />
+        <path
+           d="m 2343.3002,436.19443 c -2.3269,-5.91799 -3.0931,-12.39492 -8.4846,-23.58805 m 8.4846,23.58805 c -2.491,-7.93845 -5.6623,-15.06858 -8.4846,-23.58805"
+           stroke="#1971c2"
+           stroke-width="8.81314"
+           fill="none"
+           id="path15-1"
+           style="stroke-width:8.32738;stroke-linecap:butt;stroke-linejoin:round" />
+        <path
+           d="m 2326.2324,436.10047 c 1.826,-5.9152 5.311,-12.37107 8.5832,-23.49409 m -8.5832,23.49409 c 3.2343,-7.86309 5.8536,-14.96477 8.5832,-23.49409"
+           stroke="#1971c2"
+           stroke-width="8.81314"
+           fill="none"
+           id="path16-1"
+           style="stroke-width:8.32738;stroke-linecap:butt;stroke-linejoin:round" />
+      </g>
+      <g
+         stroke-linecap="round"
+         id="g132"
+         style="stroke:#9c36b5;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         transform="translate(-96.765368,348.76367)">
+        <g
+           transform="translate(2049.1497,413.7381)"
+           id="g128"
+           style="stroke:#9c36b5;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="M 0.4796064,-12.717739 C 0.5496064,-5.387739 -0.4,28.71 -0.18,44.77 0.03,60.84 -6.63,80.56 0.66,96.46 7.95,112.35 36.51,132.7 43.57,140.13 M 2.3496064,-13.727739 C 2.2996064,-6.287739 -1.05,30.31 -1.21,46.2 c -0.17,15.88 -6.05,32.39 1.47,48.16 7.52,15.77 36.17,38.58 43.63,46.44"
+             stroke="#1971c2"
+             stroke-width="8.81314"
+             fill="none"
+             id="path127"
+             style="stroke:#9c36b5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+             sodipodi:nodetypes="ccccccsc" />
+        </g>
+        <g
+           transform="translate(2049.1497,413.7381)"
+           id="g129"
+           style="stroke:#9c36b5;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 20.87,131.05 c 5.91,2.3 11.17,6.13 23.02,9.75 m -23.02,-9.75 c 7.5,3.55 14.87,6.05 23.02,9.75"
+             stroke="#1971c2"
+             stroke-width="8.81314"
+             fill="none"
+             id="path128"
+             style="stroke:#9c36b5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+        </g>
+        <g
+           transform="translate(2049.1497,413.7381)"
+           id="g130"
+           style="stroke:#9c36b5;stroke-width:4.40657;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 32.52,118.53 c 3.09,5.36 5.45,12.31 11.37,22.27 M 32.52,118.53 c 3.56,7.72 6.98,14.47 11.37,22.27"
+             stroke="#1971c2"
+             stroke-width="8.81314"
+             fill="none"
+             id="path129"
+             style="stroke:#9c36b5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+        </g>
+      </g>
+      <g
+         id="g134"
+         transform="translate(-8.796854,348.76367)"
+         style="stroke:#9c36b5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 2288.4981,553.87429 c 7.59,-7.56 38.49,-28.05 46.08,-44.05 7.59,-16 -0.5,-24.61 -0.53,-51.96 -0.03,-27.36 0.6413,-23.12393 0.5713,-57.85393 m -47.5113,156.03393 c 7.34,-7.39 38.1,-28.41 46.32,-44.63 8.23,-16.22 2.87,-25.19 3.03,-52.69 0.16,-27.51 -1.1487,-23.85393 -1.8387,-58.71393"
+           stroke="#1971c2"
+           stroke-width="8.81314"
+           fill="none"
+           id="path132"
+           style="stroke:#9c36b5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+           sodipodi:nodetypes="csscccsc" />
+        <path
+           d="m 2343.3002,424.60576 c -2.3269,-5.91799 -3.0931,-12.39492 -8.4846,-23.58805 m 8.4846,23.58805 c -2.491,-7.93845 -5.6623,-15.06858 -8.4846,-23.58805"
+           stroke="#1971c2"
+           stroke-width="8.81314"
+           fill="none"
+           id="path133"
+           style="stroke:#9c36b5;stroke-width:8.32738;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+        <path
+           d="m 2326.2324,424.5118 c 1.826,-5.9152 5.311,-12.37107 8.5832,-23.49409 m -8.5832,23.49409 c 3.2343,-7.86309 5.8536,-14.96477 8.5832,-23.49409"
+           stroke="#1971c2"
+           stroke-width="8.81314"
+           fill="none"
+           id="path134"
+           style="stroke:#9c36b5;stroke-width:8.32738;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>

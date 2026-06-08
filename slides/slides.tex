@@ -30,7 +30,7 @@
 
 \definecolor{applegreen}{rgb}{0.55, 0.71, 0.0}
 \definecolor{cadmiumred}{rgb}{0.89, 0.0, 0.13}
-  
+
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
@@ -68,49 +68,113 @@ tabsize=2
 \newcommand{\xmark}{\ding{55}} % xmark
 \newcommand{\tool}[1]{\texttt{#1}}
 
+% Don't count backup slides in the total frame count
+\newcommand{\backupbegin}{
+   \newcounter{finalframe}
+   \setcounter{finalframe}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+   \setcounter{framenumber}{\value{finalframe}}
+}
+
 \title{Abstracts Explorer: Navigating Conference Research with Agentic AI}
 \subtitle{Helmholtz AI Conference 2026}
-\author{Thomas Wachtler}
+\author{Till Korten}
 \date{Helmholtz AI Conference 2026}
-\institute{Forschungszentrum Jülich}
+\institute{Helmholtz Zentrum Dresden Rossendorf (HZDR)}
 \titlegraphic{}
 
 
 % BEGIN DOCUMENT
 \begin{document}
 
-% 1 — TITLE
+% TITLE
 \maketitle
 
-% 1b — HOOK
+% HOOK
 \begin{frame}{Navigate Conference Research with Agentic AI}
-  \begin{alertblock}{Imagine this scenario}
-    You open the conference programme.\\
-    6000 abstracts. 10+ parallel tracks. You have a 6h flight to prepare.\\
-    Where do \textit{you} start?
-  \end{alertblock}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.5\textwidth}
+      \vspace{-0.5em}
+      \begin{block}{Imagine this scenario}
+        \textbf{You open the conference programme:\\
+          6000 abstracts. 10+ parallel tracks.\\
+          You have an 8h flight to prepare.\\
+          Where do \textit{you} start?}
+      \end{block}
+      \vspace{0.48em}
+      \textbf{Traditional approach:} skim titles $\rightarrow$ miss half the relevant work\\[0.3em]
+      \textbf{Abstracts Explorer:} let an AI agent do the heavy lifting --- \textit{with you in control}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \includegraphics[width=\textwidth]{images/abstract_embedding.png}
+    \end{column}
+  \end{columns}
   \vspace{0.5em}
-  \textbf{Traditional approach:} skim titles $\rightarrow$ miss half the relevant work\\[0.3em]
-  \textbf{Abstracts Explorer:} let an AI agent do the heavy lifting --- \textit{with you in control}
+  \textbf{LLM embeddings} capture the meaning of abstracts in a high-dimensional vector space, enabling semantic search and ML-driven insights (clustering, RAG).
 \end{frame}
 
-% 4 — DEMO: SEARCH
+% DEMO: SEARCH
 \begin{frame}{More Relevant Results With Semantic Search}
-  \begin{columns}[T]
+  \Large
+  \begin{columns}
     \begin{column}{0.55\textwidth}
       \includegraphics[width=\textwidth]{images/web-ui-search.png}
     \end{column}
-    \begin{column}{0.42\textwidth}
+    \begin{column}{0.45\textwidth}
       \begin{itemize}
         \item Semantic search (vector similarity) finds relevant abstracts based on meaning, not just keyword matches
-        \item Filters: conference, year, track, decision type
+        \item Filters: conference, year, track
         \item Results ranked by relevance
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-% 5 — DEMO: CHAT
+% DEMO: INTERESTING PAPERS
+\begin{frame}{Rate Papers to Build Your Schedule}
+  \Large
+  \begin{columns}[T]
+    \begin{column}{0.55\textwidth}
+      \includegraphics[width=\textwidth]{images/web-ui-interesting.png}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \textbf{Interesting Papers} (Tab~3)\\[0.5em]
+      \begin{itemize}
+        \item Rate abstracts 1--5 stars while browsing
+        \item Export as ZIP / JSON / Markdown --- ready for your notes app
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% DEMO: STATS
+\begin{frame}{Visualise the Topic Landscape}
+  \begin{columns}[T]
+    \begin{column}{0.33\textwidth}
+      \includegraphics[width=\textwidth]{images/web-ui-statistics.png}
+    \end{column}
+    \begin{column}{0.66\textwidth}
+      \textbf{Conference Statistics} (Tab~4)\\[0.5em]
+      \begin{itemize}
+        \item Cluster landscape
+        \item Agglomerative clustering of abstracts based on full embeddings (4k dimensions)
+        \item t-sne dimensionality reduction for 2D visualisation
+        \item LLM-generated cluster labels
+        \item Topic trend chart
+        \item Basis for MCP tools:
+              \begin{itemize}
+                \item \texttt{get\_conference\_topics}
+                \item \texttt{get\_cluster\_visualization}
+                \item \texttt{analyze\_topic\_relevance}
+                \item \texttt{get\_topic\_evolution}
+              \end{itemize}
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% DEMO: CHAT
 \begin{frame}{Chat With the Conference to Get an Overview}
   \begin{columns}[T]
     \begin{column}{0.45\textwidth}
@@ -127,81 +191,6 @@ tabsize=2
       \end{enumerate}
     \end{column}
   \end{columns}
-\end{frame}
-
-% 6a — DEMO: INTERESTING PAPERS
-\begin{frame}{Rate Papers to Build Your Schedule}
-  \begin{columns}[T]
-    \begin{column}{0.55\textwidth}
-      \includegraphics[width=\textwidth]{images/web-ui-interesting.png}
-    \end{column}
-    \begin{column}{0.45\textwidth}
-      \textbf{Interesting Papers} (Tab~3)\\[0.5em]
-      \begin{itemize}
-        \item Rate abstracts 1--5 stars while browsing
-        \item Export as ZIP / JSON / Markdown --- ready for your notes app
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-% 6b — DEMO: STATS
-\begin{frame}{Visualise the Topic Landscape}
-  \begin{columns}[T]
-    \begin{column}{0.33\textwidth}
-      \includegraphics[width=\textwidth]{images/web-ui-statistics.png}
-    \end{column}
-    \begin{column}{0.66\textwidth}
-      \textbf{Conference Statistics} (Tab~4)\\[0.5em]
-      \begin{itemize}
-        \item Topic trend chart
-        \item Cluster landscape
-        \item Agglomerative clustering of abstracts based on full embeddings (4k dimensions)
-        \item t-sne dimensionality reduction for 2D visualisation
-        \item LLM-generated cluster labels
-        \item Basis for MCP tools:
-              \begin{itemize}
-                \item \texttt{get\_conference\_topics}
-                \item \texttt{get\_cluster\_visualization}
-                \item \texttt{analyze\_topic\_relevance}
-                \item \texttt{get\_topic\_evolution}
-              \end{itemize}
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}[fragile]{Agentic AI Definition}
-  A system is \textbf{agentic} when it can:
-  \begin{itemize}
-    \item[1.] \textbf{Perceive} a goal expressed in natural language
-    \item[2.] \textbf{Plan} which tools to invoke
-    \item[3.] \textbf{Execute} those tools autonomously
-    \item[4.] \textbf{Reflect} on results and loop back
-  \end{itemize}
-  \vspace{0.3em}
-  \begin{verbatim}
-User goal -> LLM planner -> tool calls -> results -> LLM answer
-                 ^__________feedback loop__________^
-  \end{verbatim}
-\end{frame}
-
-% DATA STACK
-\begin{frame}{Abstracts Explorer Data Stack}
-  \small
-  \begin{tabularx}{\textwidth}{lX}
-    \toprule
-    \textbf{Layer}      & \textbf{What it does}                                     \\
-    \midrule
-    \textbf{Data}       & Downloads \& stores abstracts from 10+ conferences        \\
-    \textbf{Embeddings} & Converts abstracts to vectors via an LLM embedding model  \\
-    \textbf{Retrieval}  & Semantic (cosine similarity) search                       \\
-    \textbf{Agency}     & MCP tools: the LLM decides which analysis to run          \\
-    \textbf{Reasoning}  & RAG chat: the LLM answers questions based on tool results \\
-    \textbf{Interface}  & Flask/Waitress web UI                                     \\
-    \bottomrule
-  \end{tabularx}
-  \vspace{0.5em}
 \end{frame}
 
 \begin{frame}{MCP Gives the LLM a Toolbox to Choose From}
@@ -237,9 +226,35 @@ User goal -> LLM planner -> tool calls -> results -> LLM answer
   \end{center}
 \end{frame}
 
-% 10 — WHY "AGENTIC"?
-\begin{frame}{This Is Genuine Agency}
-  \small
+% ARCHITECTURE
+\begin{frame}{Architecture}
+  \begin{center}
+    \includegraphics[width=\textwidth]{images/architecture.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Working Today for 8 Conferences}
+  \large
+  \textbf{Today}
+  \begin{itemize}
+    \item 8 conferences, multi-year data (NeurIPS $\cdot$ ICLR $\cdot$ ICML $\cdot$ CHI $\cdot$ HAICON $\cdot$ \ldots)
+          \begin{itemize}
+            \item Plugin system makes it easy to add more - use the issue template on Github to request your favourite conference!
+          \end{itemize}
+    \item 6 MCP tools, automatic RAG integration
+    \item Conference data registry: share conference data across installations
+    \item $>$ 80\% Python test coverage $\cdot$ Docker deployment
+  \end{itemize}
+  \vspace{0.5em}
+  \textbf{Planned}
+  \begin{itemize}
+    \item More agentic behaviours: build personalised schedule based on user prompt, existing ratings, and conference data
+  \end{itemize}
+\end{frame}
+
+% WHY "AGENTIC"?
+\begin{frame}{Is This Agentic AI?}
+  \large
   \begin{tabularx}{\textwidth}{lX}
     \toprule
     \textbf{Property}             & \textbf{How Abstracts Explorer satisfies it}                                                     \\
@@ -252,28 +267,13 @@ User goal -> LLM planner -> tool calls -> results -> LLM answer
     \textbf{Human in the loop}    & Follow-up questions and feedback                                                                 \\
     \bottomrule
   \end{tabularx}
+
+  \vspace{1em}
+  Yes, this is a small but complete example of agentic AI for science!
 \end{frame}
 
-\begin{frame}{Working Today for 8 Conferences}
-  \textbf{Today}
-  \begin{itemize}
-    \item 8 conferences, multi-year data (NeurIPS $\cdot$ ICLR $\cdot$ ICML $\cdot$ CHI $\cdot$ HAICON $\cdot$ \ldots)
-          \begin{itemize}
-            \item Plugin system makes it easy to add more - use the issue template on Github to request your favourite conference!
-          \end{itemize}
-    \item 6 MCP tools, automatic RAG integration
-    \item Conference data registry: share conference data across installations
-    \item $>$ 90\% Python test coverage $\cdot$ Docker deployment
-  \end{itemize}
-  \vspace{0.5em}
-  \textbf{Planned}
-  \begin{itemize}
-    \item More agentic behaviours: build personalised schedule based on user prompt, existing ratings, and conference data
-  \end{itemize}
-\end{frame}
-
-% 11 — DEPLOYMENT
-\begin{frame}[fragile]{Easily Deployed with Podman Quadlets}
+% DEPLOYMENT
+\begin{frame}{Easily Deployed with Podman Quadlets}
   Quadlets are \texttt{systemd} unit files that describe containers --- Podman generates real \texttt{.service} units from them automatically.\\[0.5em]
 
   \begin{block}{Single command to install}
@@ -291,16 +291,29 @@ User goal -> LLM planner -> tool calls -> results -> LLM answer
 
 \begin{frame}{Mini Hackathon}
   \Large
-  \begin{tabularx}{\textwidth}{lX}
-    \parbox[c]{5em}{\centering\includegraphics[width=5em]{images/abstracts.hzdr.de.png}} & \parbox[c]{\linewidth}{\textbf{Try it out!} $\rightarrow$ \url{https://abstracts.hzdr.de/}}                                                                                                                                                                                            \\
-    \parbox[c]{5em}{\centering\includegraphics[width=5em]{images/github.png}}            & \parbox[c]{\linewidth}{\textbf{Contribute on Github} $\rightarrow$ \url{https://github.com/thawn/abstracts-explorer}}                                                                                                                                                                  \\
-    \parbox[c]{5em}{\centering\includegraphics[width=5em]{images/first-issue.png}}       & \parbox[c]{\linewidth}{\raggedright\textbf{Check out good first issues} $\rightarrow$ {\large\href{https://github.com/thawn/abstracts-explorer/issues?q=is\%3Aissue\%20state\%3Aopen\%20label\%3A\%22good\%20first\%20issue\%22}{https://github.com/thawn/abstracts-explorer/issues}}}
-  \end{tabularx}
+  \begin{columns}[T]
+    \begin{column}{0.55\textwidth}
+      \begin{itemize}
+        \item \textbf{Try it out!} $\rightarrow$ \url{https://abstracts.hzdr.de}
+        \item \textbf{Contribute on Github} $\rightarrow$ \url{https://github.com/thawn/abstracts-explorer}
+        \item \textbf{Check out good first issues} $\rightarrow$ \href{https://github.com/thawn/abstracts-explorer/issues?q=is\%3Aissue\%20state\%3Aopen\%20label\%3A\%22good\%20first\%20issue\%22}{https://github.com/thawn/abstracts-explorer/issues}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \vspace{-1.7em}
+      \begin{center}
+        \begin{tikzpicture}
+          \node[anchor=center] (img) {\includegraphics[width=\textwidth]{images/github.png}};
+          \node[anchor=center, fill=white, inner sep=0.1em] at (img.center) {\Huge\faGithub};
+        \end{tikzpicture}
+      \end{center}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 % 13 — TAKE-AWAY
 \begin{frame}{Summary}
-
+  \Large
   Abstracts Explorer is a small but complete example of Agentic AI for science:
   \begin{itemize}
     \item Domain-specific knowledge base (conference abstracts)
@@ -323,12 +336,5 @@ User goal -> LLM planner -> tool calls -> results -> LLM answer
 
 % BACKUP SLIDES
 \appendix
-
-% 9 — ARCHITECTURE
-\begin{frame}{Architecture}
-  \begin{center}
-    \includegraphics[width=\textwidth]{images/architecture.png}
-  \end{center}
-\end{frame}
 
 \end{document}
