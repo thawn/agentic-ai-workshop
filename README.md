@@ -6,9 +6,32 @@ Slide PDFs can be found in [releases](https://github.com/Helmholtz-AI-Matter/age
 
 Use a PDF reader that can play movies (e.g. Adobe Acrobat Reader, Foxit Reader).
 
-## Hackathon
+## Agenda
 
-The workshop will be followed by a mini hackathon. Choose **one** track:
+### Presentations — Architecture walk-through, live demo, design trade-offs, and lessons learned & Discussion (2 h)
+
+| Time    | Session                                                                                                                                |
+| ------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| ~30 min | **Introduction to Agentic AI for Science**                                                                                             |
+| ~30 min | **Project Presentation: Abstracts Explorer**                                                                                           |                                                                                                                           |
+| ~30 min | **Project Presentation: Voucher Canvas Agent**                                                                                         |
+| ~30 min | **General Discussion** — Cross-cutting themes: What design patterns transferred? Where did things break? What would we do differently? |
+
+### Hackathon (2 h)
+
+Participants form small groups to **build or plan** agentic ML tools hands-on. Groups self-organize around topics proposed in the morning discussion. Possible tracks include:
+
+- **Feature sprints** — Implement a concrete feature in one of the presented projects (e.g., a new MCP tool, a conference downloader plugin, an improved clustering pipeline). Bring a laptop and be ready to write code.
+- **Project planning** — Sketch the architecture and roadmap for a new agentic tool addressing a participant's own research domain. Output: a brief design document or project proposal.
+- **Integration experiments** — Wire up existing tools via MCP or other protocols and stress-test them with real scientific queries.
+
+| Time    | Session                                                                                         |
+| ------- | ----------------------------------------------------------------------------------------------- |
+| ~15 min | **Group Formation** — Pitch topics, form groups (3–5 people).                                   |
+| ~90 min | **Hands-on Work** — Small-group hacking / planning with roaming support from organizers.        |
+| ~15 min | **Lightning Reports** — Each group presents what they built, learned, or planned (~2 min each). |
+
+Choose **one** track:
 
 - **[Abstracts Explorer](https://github.com/thawn/abstracts-explorer)** — contribute to a production agentic literature tool
 - **[Agentic RAG Hackathon](https://github.com/haider-khan-91/haicon26-agentic-rag-hackathon)** — build, plan, or stress-test a minimal PDF research bot (MCP + simple RAG)
